@@ -1,15 +1,19 @@
 .verde {
 background-color: green;
+height: 100px;
 }
 
 .amarillo {
 background-color: yellow;
+height: 100px;
 }
 
 .rojo {
     background-color: tomato;
+    height: 100px;
 }
 
 .azul {
     background-color: blue;
+    height: 100px;
 }
