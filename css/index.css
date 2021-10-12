@@ -6,13 +6,24 @@
 }
 .contenedor-imagen {
     width: 95%;
+    
 }
 
 .contenedor-imagen img {
     width: 100%;
 }
 
-@media all and  (min-width: 540px) {
+@media all and  (min-width: 768px) {
 
+    .galeria {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .contenedor-imagen {
+        width: 45%;
+        margin-bottom: 45px;
+    }
     
 }
