@@ -5,15 +5,22 @@ height: 100px;
 
 .amarillo {
 background-color: yellow;
+width: 50%;
 height: 100px;
 }
 
 .rojo {
     background-color: tomato;
     height: 100px;
+    width: 50%;
 }
 
 .azul {
     background-color: blue;
     height: 100px;
+    width: 80%;
+}
+
+.sct-contendor {
+    display: flex;
 }
