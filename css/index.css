@@ -1,40 +1,18 @@
-.verde {
-background-color: green;
-height: 100px;
-}
-
-.amarillo {
-background-color: yellow;
-width: 50%;
-height: 100px;
-}
-
-.rojo {
-    background-color: tomato;
-    height: 100px;
-    width: 50%;
-}
-
-.azul {
-    background-color: blue;
-    height: 100px;
-    width: 80%;
-}
-
-.sct-contendor {
+.galeria {
+    padding: 0 2.5%;
     display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contenedor-imagen {
+    width: 95%;
+}
+
+.contenedor-imagen img {
+    width: 100%;
 }
 
 @media all and  (min-width: 540px) {
 
-    .sct-contendor {
-        justify-content: space-around;
-    }
-    .amarillo {
-        width: 40%;
-    }
-
-    .rojo {
-        width: 40%;
-    }
+    
 }
