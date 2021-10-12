@@ -24,3 +24,17 @@ height: 100px;
 .sct-contendor {
     display: flex;
 }
+
+@media all and  (min-width: 540px) {
+
+    .sct-contendor {
+        justify-content: space-around;
+    }
+    .amarillo {
+        width: 40%;
+    }
+
+    .rojo {
+        width: 40%;
+    }
+}
